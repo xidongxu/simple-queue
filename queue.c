@@ -1,5 +1,5 @@
 #include "queue.h"
-/* 这里要注意：include的路径中""与<>的区别 */
+
 /*构造一个空队列*/  
 queue_t queue_init(void) {  
 	queue_t queue = (queue_t)malloc(sizeof(queue));  
